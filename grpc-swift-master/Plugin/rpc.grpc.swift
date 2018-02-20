@@ -3019,7 +3019,7 @@ internal protocol Lnrpc_WalletUnlockerProvider {
 }
 
 /// Common properties available in each service session.
-internal final class Lnrpc_WalletUnlockerSession {
+internal class Lnrpc_WalletUnlockerSession {
   fileprivate var handler : gRPC.Handler
   internal var requestMetadata : Metadata { return handler.requestMetadata }
 
@@ -3196,7 +3196,7 @@ internal protocol Lnrpc_LightningProvider {
 }
 
 /// Common properties available in each service session.
-internal final class Lnrpc_LightningSession {
+internal class Lnrpc_LightningSession {
   fileprivate var handler : gRPC.Handler
   internal var requestMetadata : Metadata { return handler.requestMetadata }
 
