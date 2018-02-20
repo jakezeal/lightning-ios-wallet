@@ -1,3 +1,1 @@
-# Lightning
-
-A description of this package.
+# Lightning iOS Wallet
